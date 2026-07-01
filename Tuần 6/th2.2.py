@@ -1,0 +1,10 @@
+from collections import deque
+q = deque() 
+q.append('data analytics') 
+q.append('data structures and algorithms')
+q.append('big data')
+q.append('learning data analytics')
+print(q)
+print(q.popleft()) 
+print(q.popleft())
+print(q)
